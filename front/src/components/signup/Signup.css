@@ -1,0 +1,79 @@
+.sectionForm{
+    width: 100%;
+    height: 100vh;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+}
+
+.loginForm{
+    width: 25%;
+    padding: 3em;
+    border-radius: 10px;
+    border: 1px solid rgb(208, 208, 208);
+    height: 65vh;
+    display: flex;
+    color: rgb(0, 119, 209);
+    flex-direction: column;
+    align-items: center;
+    gap: 2em;
+}
+
+.loginForm fieldset {
+    margin: 0;
+    padding: -.2em;
+    color: rgb(208, 208, 208);
+    font-size: .8em;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    width: 100%;
+    color: rgb(0, 119, 209);
+    text-align: left;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.loginForm fieldset:focus-within{
+    color: rgb(0, 119, 209);
+    border: 2px solid rgb(0, 119, 209);
+}
+
+
+.loginForm input:focus::placeholder{
+    color: white;
+}
+
+.loginForm input{
+    padding: .5em;
+    width: 100%;
+    border: none;
+    background: none;
+    font-size: 1.5em;
+    outline: none;
+    border: 1px solid rgb(208, 208, 208);
+    border-radius: .2em;
+}
+
+.loginForm input:focus{
+    border: none;
+    padding: 0;
+}
+
+.loginForm button{
+    background-color: rgb(0, 122, 215);
+    color: white;
+    font-family: inherit;
+    border: none;
+    padding: .5em 2em;
+    font-weight: 500;
+    border-radius: .2em;
+    font-size: 1em;
+}
+
+#logoGoogle{
+    width: 3em;
+}

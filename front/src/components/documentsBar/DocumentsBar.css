@@ -1,0 +1,30 @@
+.documentsBar{
+    width: 80vw;
+    margin-top: 8vh;
+    margin-left: auto;
+    margin-right:auto;
+}
+
+.header{
+    height: 8vh;
+    background: #0066ff;
+    padding: 1rem;
+    color: white;
+    font-weight: 900;
+    /* font-size: 1rem; */
+    border: 0px;
+    border-radius: 0.5rem;
+}
+
+.document{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    margin: 1rem;
+    background: #f2f2f2;
+    border: 0px;
+    cursor: pointer;
+    border-top: rgb(43, 43, 43) 1px solid;
+    font-weight: 500;
+}

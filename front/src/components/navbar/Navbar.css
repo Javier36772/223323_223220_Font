@@ -1,0 +1,35 @@
+.navbar-button-group{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 21vw;
+    margin-left: 55vw;
+}
+
+.notifications-button{
+    padding: 0;
+    border: none;
+    background: #007cc9;
+    cursor: pointer;
+    outline: none;
+    font-weight: 700;
+    color: #fff;
+    padding: 0.5rem;
+    font-size: 1rem;
+    border-radius: 0.5rem;
+    transition: color 0.3s;
+}
+
+.logout-button{
+    padding: 0;
+    border: none;
+    background: #910000;
+    cursor: pointer;
+    outline: none;
+    font-weight: 700;
+    color: #fff;
+    padding: 0.5rem;
+    font-size: 1rem;
+    border-radius: 0.5rem;
+    transition: color 0.3s;
+}

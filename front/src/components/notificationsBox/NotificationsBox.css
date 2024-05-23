@@ -1,0 +1,50 @@
+.notification {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    margin: 1rem;
+    margin-top: 1.5rem;
+    background: #bebebe;
+    border: 0px;
+    cursor: pointer;
+    font-weight: 500;
+    border-radius: 5px;
+}
+
+.notification:hover {
+    background: #d8d8d8;
+}
+
+.notification-buttons{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 13vw;
+}
+
+.accept-button{
+    background: #429545;
+    color: white;
+    padding: 0.5rem;
+    border: 0px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.accept-button:hover{
+    background: #45a049;
+}
+
+.reject-button{
+    background: #ae3128;
+    color: white;
+    padding: 0.5rem;
+    border: 0px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.reject-button:hover{
+    background: #d32f2f;
+}
